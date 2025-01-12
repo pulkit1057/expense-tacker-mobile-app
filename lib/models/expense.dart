@@ -3,10 +3,14 @@ import 'package:uuid/uuid.dart';
 import 'package:intl/intl.dart';
 
 final formatter = DateFormat.yMd();
-
 const uuid = Uuid();
 
-enum Category { food, work, leisure, travel }
+enum Category {
+  food,
+  work,
+  leisure,
+  travel,
+}
 
 const categoryIcons = {
   Category.food: Icons.dinner_dining,
